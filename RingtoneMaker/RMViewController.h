@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
-@interface RMViewController : UIViewController
+@interface RMViewController : UIViewController<MPMediaPickerControllerDelegate>
 
 @end
